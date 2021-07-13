@@ -75,7 +75,7 @@ public class Networks2APP  {
 	
 	
 	static void vehicleSpamming(byte [] rxbuffer,DatagramPacket q,DatagramSocket r,DatagramPacket p,DatagramSocket s,String packetInfo,int serverPort) throws IOException {
-		byte[] hostIP = { (byte)155,(byte)207,(byte)18,(byte)208 };
+		byte[] hostIP = { (byte),(byte),(byte),(byte) };
 		InetAddress hostAddress = InetAddress.getByAddress(hostIP);
 		ArrayList<Float> Engine_run_time =new ArrayList<Float>();
 		ArrayList<Float> Intake_air_temperature =new ArrayList<Float>();
