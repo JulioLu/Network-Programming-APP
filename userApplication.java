@@ -40,7 +40,7 @@ public class Networks2APP  {
 
 		byte[] txbuffer = packetInfo.getBytes();
 		int serverPort = 38002;
-		byte[] hostIP = { (byte)155,(byte)207,(byte)18,(byte)208 };
+		byte[] hostIP = { (byte)xxx,(byte)xxx,(byte)xxx,(byte)xxx };
 		InetAddress hostAddress = InetAddress.getByAddress(hostIP);
 		
 		DatagramPacket p = new DatagramPacket(txbuffer,txbuffer.length, hostAddress,serverPort);
