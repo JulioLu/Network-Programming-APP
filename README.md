@@ -13,5 +13,7 @@ By using UDP protocol, these functions after the giving request (audio specific 
 
 
 # telemetry
-The user has the ability to configure some parameters of a mini-drone platform such as flight level, LMotor and RMotor values and then through repeated requests to receive flight information such as attitude, temperature, presoure etc.
+The user has the opportunity to configure some parameters of a mini-drone platform such as flight level, LMotor and RMotor values and then through repeated requests to receive flight informations such as attitude, temperature, presoure etc.
 
+# BRDM vehicle control
+The user has the opportunity to configure some parameters of a BRDM vehicle and then, as the vehicle moves, through repeated requests to receive and informations such as speed, Engine RPM, intake air etc. by decoding the incoming informations.
