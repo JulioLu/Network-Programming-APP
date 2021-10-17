@@ -13,5 +13,5 @@ By using UDP protocol, these functions after the giving request (audio specific 
 
 
 # telemetry
-By using UDP protocol this function after the giving request (echo specific code),  receives an echo packages (using UDP protocol) as a String which is a message showing the local time, day and the temperature that is given by a termometer on a highway in our city. 
+The user has the ability to configure some parameters of a mini-drone platform such as flight level, LMotor and RMotor values and then through repeated requests to receive flight information such as attitude, temperature, presoure etc.
 
