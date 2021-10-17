@@ -20,4 +20,5 @@ The user has the opportunity to configure some parameters of a BRDM vehicle and 
 
 # measurements
 -throughput(BPS)
+
 -RTO, SRTT parameters using as RTT the response time.
